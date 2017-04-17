@@ -63,7 +63,7 @@
     "project_type": "personal",
     "name": "Finn_resume",
     "demo": "https://finnmzc.github.io/resume",
-    "source": "https://github.com/FinnMZC/FinnMZC.github.io/tree/master/resume",
+    "source": "https://github.com/FinnMZC/resume",
     "description": [
       "以 `Jade` 为模板引擎，基于流的自动化构建工具 `Gulp` , `Less` 模块化书写布局，`Json` 模拟后端数据开发的静态页面"
     ],
