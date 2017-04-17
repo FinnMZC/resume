@@ -1,0 +1,51 @@
+extends ./layout/resume-layout.jade
+include ./mixins/util.jade
+
+block education
+  +section("education", true)
+    each item in education
+      li.timeline-item(class="education-" + item.type)
+        h3.timeline-title
+          time.education-time #{item.start} ~ #{item.end}
+        dl.education-description.timeline-content
+          dt.education-name= item.name
+          dd.education-major= item.major + education_type[item.type]
+          each honor in item.honor
+            dd.education-honor!= highlight(honor)
+
+block experience
+  +section("experience", true)
+    each item in experience
+      li.timeline-item(class="experience-" + item.type)
+        h3.timeline-title
+          +#{"experience_title_" + item.type}(item)
+        dl.experience-description.timeline-content
+          +#{"experience_content_" + item.type}(item)
+
+block profile
+  +section("profile", true)
+    each item in profile
+      +#{"profile_content_" + item.type}(item)
+
+block skills
+  +section("skills", true)
+    each item in skills
+      li.timeline-item(class="skills-" + item.type)
+        h3.timeline-title
+          span.skills-type= skill_type[item.type]
+        +#{"skills_" + item.type}(item)
+
+//- block about
+//-   +section("about", true)
+//-     each item in about
+//-       li.timeline-item(class="about-" + item.type)
+//-         h3.timeline-title
+//-           span.about-type= about_type[item.type]
+//-         +#{"about_" + item.type}(item)
+
+
+block links
+    ul.links
+      each link in links
+        li.link
+          a(href=link.url)= link_type[link.type]

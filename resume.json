@@ -1,0 +1,114 @@
+{
+  "data_lang": "zh-CN",
+  "ga_id": "UA-63818301-2",
+  "resume_title": "Finn | Resume",
+  "name": "马志超",
+  "job_description": ["前端工程师"],
+  "contact": {
+    "email": "mzcairplane@gmail.com",
+    "wechat": {
+      "id": "mzcairplane",
+      "qrcode": "static/wechat_Finn.svg"
+    },
+    "github": {
+      "id": "FinnMZC",
+      "url": "https://github.com/FinnMZC"
+    },
+    "phone": "130-4588-2581"
+  },
+  "links": [{
+    "type": "pdf",
+    "url": "static/Finn_Resume.pdf"
+  }],
+  "education": [{
+    "type": "undergraduate",
+    "name": "西北大学(211)",
+    "major": "资源勘查工程",
+    "start": "2013",
+    "end": "2017",
+    "honor": []
+  }],
+  
+  "profile": [{
+    "type": "profile",
+    "description": [
+      "`热爱互联网和计算机`给我带来的和思考变化而立志从事前端工作。`学习能力强`，有`吃苦攻关`精神,`思维活跃`，`喜欢动手`。因无甚经验与资历更`虚心`向学，希望在学习和工作中提高自己，成为一名优秀的前端工程师"
+    ]
+  }],
+  "experience": [{
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "Vue SPA",
+    "demo": "https://finnmzc.github.io/sell",
+    "source": "https://github.com/FinnMZC/MyVuePage",
+    "description": [
+      "基于 [`Vue.js`](https://vuejs.org/) 框架，使用 `Vue-cli` 脚手架初始化，`Flex` 弹性布局，用 `Stylus` 编写模块化的CSS，模拟 `Json` 后端数据，前后端分离，用 `Vue-resource` 与后端数据交互， `Webpack` 打包构建， `Eslint` 代码规范检查的开发方式，使用 `Vue-router` 实现路由，`组件化` 、 `模块化` 开发的移动端单页应用"
+    ],
+    "stack": []
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "ResponsiveWeb",
+    "demo": "https://finnmzc.github.io/ResponsiveWeb",
+    "source": "https://github.com/FinnMZC/FinnMZC.github.io/tree/master/ResponsiveWeb",
+    "description": [
+      "依据响应式网站设计实践原则，以媒体查询、`CSS3选择器` 、`视口（Viewport）`、`Resets`与`Normalize`、`Rem`布局网页、清除浮动和`BFC(Block Formatting Contexts)`为响应式布局基础，开发的 `跨终端响应式` 页面 "
+    ],
+    "stack": ["", ""]
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "Finn_resume",
+    "demo": "https://finnmzc.github.io/resume",
+    "source": "https://github.com/FinnMZC/FinnMZC.github.io/tree/master/resume",
+    "description": [
+      "以 `Jade` 为模板引擎，基于流的自动化构建工具 `Gulp` , `Less` 模块化书写布局，`Json` 模拟后端数据开发的静态页面"
+    ],
+    "stack": [""]
+  }],
+  "skills": [{
+    "type": "frontend",
+    "item": [{
+      "summary": "`HTML` / `CSS`",
+      "description": [
+        "能够编写语义化的 `HTML`，且代码布局清晰。",
+        "熟练使用 `CSS` 进行网页布局开发，CSS命名遵循 `BEM` 命名规范",
+        "熟悉 `HTML5` 语义化标签， `CSS3` 选择器，并能运用其进行逻辑业务开发"
+      ]
+    }, {
+      "summary": "`ECMAScript`（`JavaScript`）",
+      "description": [
+        "熟悉 `ECMAScript`(`JavaScript`)，并对 ES6 标准有所了解",
+        "能够使用 `JavaScript` 进行交互式的动态网页开发",
+        "了解 `JavaScript Standard Style` 开发规范"
+      ]
+    }, {
+      "summary": "`Vue.js` / `Flex` / `Less` ",
+      "description": [
+        "熟悉 `Vue.js` 框架的开发流程及方法、版本跃迁",
+        "能利用 `Flex` 进行网页布局开发 ",
+        "熟悉CSS预处理器 `Less` / `Stylus` "
+      ]
+    }]
+  }, {
+    "type": "miscellaneous",
+    "item": [
+      "熟悉运用 `WebStorm` / `Visual Studio Code` 等开发工具进行前端开发",
+      "能够使用 `Photoshop` 从网页设计师提供的psd中获取网页前端开发过程中所需要的资源，并进行的调整和处理。",
+      "掌握协助开发工具 `Git` / `GitHub` ",
+      "..."
+    ]
+  }],
+  "about": [{
+      "type": "links",
+      "item": [
+          "[`Website`](http://aleen42.github.io/pc.html)",
+          "[`Personal Wiki`](https://aleen42.gitbooks.io/personalwiki/content/)",
+          "[`JavaScript Guide`](https://aleen42.gitbooks.io/javascript/content/)",
+          "[`Translations`](https://aleen42.gitbooks.io/personalwiki/content/translation/translation.html)"
+      ]
+  }]
+}
